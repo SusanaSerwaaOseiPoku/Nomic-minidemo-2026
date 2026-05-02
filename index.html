@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomics — Market Price Awareness for Ghana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900">
+    <!-- Header -->
+    <header class="bg-white border-b border-slate-200 shadow-sm sticky top-0 z-20">
+        <div class="container mx-auto px-4 py-5 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+            <div class="flex items-center gap-3">
+                <div>
+                    <p class="text-lg font-semibold text-orange-600 ">Nomics</p>
+                    
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+                <a href="/snapshot.html" class="hover:text-orange-600 transition">Snapshot</a>
+                <a href="/segments.html" class="hover:text-orange-600 transition">Segments</a>
+                <a href="#signals" class="hover:text-orange-600 transition">Signals</a>
+            </nav>
+        </div>
+    </header>
+<!-- Main Content -->
+    <main class="container mx-auto px-4 py-10">
+        <section class="bg-white rounded-[2rem] p-8 md:p-12 shadow-sm grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-center">
+            <div>
+                <p class="text-xs uppercase tracking-[0.4em] text-orange-600 mb-4">Market intelligence for everyday Ghana</p>
+                <h1 class="text-4xl md:text-5xl font-semibold text-slate-950 leading-tight mb-6">Reliable daily price intelligence across Ghana’s market.</h1>
+                <p class="max-w-2xl text-lg text-slate-600 mb-8">Nomics turns market signals into simple, trustworthy updates so traders, families and workers can quickly see what is rising, stable, or worth watching.</p>
+                <div class="inline-flex flex-col gap-3 sm:flex-row sm:items-center">
+                    <a href="" class="inline-flex items-center justify-center rounded-full bg-orange-600 px-7 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-orange-700">View quick snapshot</a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="rounded-[2rem] bg-gradient-to-br from-slate-950 to-slate-800 p-6 text-white shadow-2xl overflow-hidden">
+                    <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,_rgba(248,113,113,0.35),_transparent_35%)]"></div>
+                    <div class="relative">
+                        <p class="text-xs uppercase tracking-[0.4em] text-orange-300 mb-3">Market pulse</p>
+                        <h2 class="text-3xl font-semibold mb-4">Weekly market summary</h2>
+                        <p class="text-sm text-slate-200 mb-8">This week, food and transport remain the top signals for everyday spending across Accra, Kumasi, and the regions.</p>
+                        <div class="grid gap-4 md:grid-cols-2">
+                            <div class="rounded-3xl bg-white/10 p-4">
+                                <p class="text-sm text-slate-300 uppercase tracking-[0.3em] mb-2">Food</p>
+                                <p class="text-lg font-semibold">Rising steadily</p>
+                            </div>
+                            <div class="rounded-3xl bg-white/10 p-4">
+                                <p class="text-sm text-slate-300 uppercase tracking-[0.3em] mb-2">Transport</p>
+                                <p class="text-lg font-semibold">Sharp increase</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Market Health Signal -->
+        <section class="mt-16 bg-slate-100 rounded-[2rem] border border-slate-200 p-6 md:p-8 shadow-sm">
+            <div class="flex flex-col gap-4 md:flex-row md:items-start md:justify-between mb-6">
+                <div>
+                    <p class="text-xs uppercase tracking-[0.4em] text-slate-500 mb-2">Market Health Signal</p>
+                    <h2 class="text-2xl md:text-3xl font-semibold text-slate-950">Inflation Pressure: Elevated Trend</h2>
+                </div>
+                <a href="market-drivers.html" class="inline-flex items-center justify-center rounded-full bg-orange-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-orange-700">Key Alert</a>
+            </div>
+
+            <div class="grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
+                <div class="grid gap-4">
+                    <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm">
+                        <p class="text-xs uppercase tracking-[0.35em] text-slate-500 mb-2">Primary signal</p>
+                        <p class="text-lg font-semibold text-slate-900">Inflation Pressure: Elevated</p>
+                    </div>
+                    <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm">
+                        <p class="text-xs uppercase tracking-[0.35em] text-slate-500 mb-2">Market condition</p>
+                        <p class="text-lg font-semibold text-slate-900">Above baseline trend</p>
+                    </div>
+                    <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm">
+                        <p class="text-xs uppercase tracking-[0.35em] text-slate-500 mb-2">Price velocity</p>
+                        <p class="text-lg font-semibold text-slate-900">Increasing</p>
+                    </div>
+                    <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm">
+                        <p class="text-xs uppercase tracking-[0.35em] text-slate-500 mb-2">Affected sectors</p>
+                        <p class="text-lg font-semibold text-slate-900">Food, Transport, Energy</p>
+                    </div>
+                </div>
+                <!-- Market insight -->
+                <div class="grid gap-4">
+                    <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm">
+                        <p class="text-xs uppercase tracking-[0.35em] text-slate-500 mb-4">Core drivers</p>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between gap-4 text-sm text-slate-700">
+                                <span>Food</span>
+                                <span class="font-semibold text-slate-900">+8% monthly</span>
+                            </div>
+                            <div class="flex items-center justify-between gap-4 text-sm text-slate-700">
+                                <span>Transport</span>
+                                <span class="font-semibold text-slate-900">+10–12% increase</span>
+                            </div>
+                            <div class="flex items-center justify-between gap-4 text-sm text-slate-700">
+                                <span>Energy</span>
+                                <span class="font-semibold text-slate-900">Gradual upward shift</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm">
+                        <p class="text-xs uppercase tracking-[0.35em] text-slate-500 mb-4">Market state</p>
+                        <div class="space-y-4 text-sm text-slate-700">
+                            <div class="flex items-center justify-between gap-4">
+                                <span>Volatility</span>
+                                <span class="font-semibold text-slate-900">Medium</span>
+                            </div>
+                            <div class="flex items-center justify-between gap-4">
+                                <span>Price stability</span>
+                                <span class="font-semibold text-slate-900">Declining</span>
+                            </div>
+                            <div class="flex items-center justify-between gap-4">
+                                <span>Consumer pressure</span>
+                                <span class="font-semibold text-slate-900">Rising</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm">
+                        <p class="text-xs uppercase tracking-[0.35em] text-slate-500 mb-4">System insight</p>
+                        <ul class="space-y-3 text-sm text-slate-600 list-disc list-inside">
+                            <li>Price movement is sector-linked rather than isolated.</li>
+                            <li>Transport and food are primary inflation drivers.</li>
+                            <li>Imported goods amplify volatility.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Market Segments -->
+        <section id="categories" class="mt-16">
+            <div class="mb-8">
+                <p class="text-xs uppercase tracking-[0.4em] text-slate-500 mb-2">Market Segments</p>
+                <h2 class="text-3xl font-semibold text-slate-900">Structured economic segment signals</h2>
+                <p class="max-w-2xl text-sm text-slate-600 mt-3">Data-backed insights into sector performance trends.</p>
+            </div>
+
+            <div class="-mx-4 overflow-x-auto pb-4 scroll-pl-6 scroll-px-6">
+                <div class="flex gap-6 px-4 snap-x snap-mandatory scroll-smooth">
+                    <article class="snap-center w-[280px] flex-shrink-0 rounded-xl border border-slate-800 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 shadow-md shadow-black/10 p-6 transition-transform duration-300 hover:scale-[1.03]">
+                        <div class="mb-5 h-1 w-14 rounded-full bg-orange-500"></div>
+                        <div class="flex h-full flex-col justify-center text-center text-white">
+                            <p class="text-sm uppercase tracking-[0.35em] text-orange-300 mb-3">Food & Essentials</p>
+                            <h3 class="text-xl font-semibold mb-2">Daily staple goods and consumption items</h3>
+                            <p class="text-xs text-white/70">Essential demand remains the primary segment for short-term price pressure.</p>
+                        </div>
+                    </article>
+                    <article class="snap-center w-[280px] flex-shrink-0 rounded-xl border border-slate-800 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 shadow-md shadow-black/10 p-6 transition-transform duration-300 hover:scale-[1.03]">
+                        <div class="mb-5 h-1 w-14 rounded-full bg-orange-500"></div>
+                        <div class="flex h-full flex-col justify-center text-center text-white">
+                            <p class="text-sm uppercase tracking-[0.35em] text-orange-300 mb-3">Transport</p>
+                            <h3 class="text-xl font-semibold mb-2">Fuel-driven mobility and fare systems</h3>
+                            <p class="text-xs text-white/70">Mobility costs are displaying strong correlation with fuel and energy volatility.</p>
+                        </div>
+                    </article>
+                    <article class="snap-center w-[280px] flex-shrink-0 rounded-xl border border-slate-800 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 shadow-md shadow-black/10 p-6 transition-transform duration-300 hover:scale-[1.03]">
+                        <div class="mb-5 h-1 w-14 rounded-full bg-orange-500"></div>
+                        <div class="flex h-full flex-col justify-center text-center text-white">
+                            <p class="text-sm uppercase tracking-[0.35em] text-orange-300 mb-3">Household Goods</p>
+                            <h3 class="text-xl font-semibold mb-2">Daily-use items and domestic consumption</h3>
+                            <p class="text-xs text-white/70">Household demand is signaling stability with moderate exposure to price shifts.</p>
+                        </div>
+                    </article>
+                    <article class="snap-center w-[280px] flex-shrink-0 rounded-xl border border-slate-800 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 shadow-md shadow-black/10 p-6 transition-transform duration-300 hover:scale-[1.03]">
+                        <div class="mb-5 h-1 w-14 rounded-full bg-orange-500"></div>
+                        <div class="flex h-full flex-col justify-center text-center text-white">
+                            <p class="text-sm uppercase tracking-[0.35em] text-orange-300 mb-3">Energy</p>
+                            <h3 class="text-xl font-semibold mb-2">Electricity, gas, and fuel-related costs</h3>
+                            <p class="text-xs text-white/70">Energy segment behavior is the leading driver of broader volatility signals.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="mt-8 text-center">
+                    <a href="/segments.html" class="inline-flex items-center justify-center rounded-full bg-orange-600 px-7 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-orange-700">View More</a>
+                </div>
+            </div>
+        </section>
+        <!-- Market Consumption Response Signals -->
+        <section id="advice" class="mt-16 mb-20 bg-slate-100 rounded-[2rem] p-6 md:p-8">
+            <div>
+                <div>
+                    <p class="text-xs uppercase tracking-[0.4em] text-slate-500 mb-2">Consumer Response Signals</p>
+                    <h2 class="text-3xl font-semibold text-slate-900 pb-2">Behavioral Market Signals</h2>
+                </div>
+                <p class="max-w-xl text-sm text-slate-600 pb-4">System-generated behavioral patterns based on current market conditions and price movement signals.</p>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2">
+                <div class="bg-white p-6 rounded-[2rem] shadow-sm border border-slate-200 hover:shadow-md transition">
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Pre-Inflation Stock Positioning</h3>
+                    <p class="text-sm text-slate-600">Food price acceleration detected in essential goods category. Early procurement behavior may reduce exposure to short-term price spikes.</p>
+                </div>
+                <div class="bg-white p-6 rounded-[2rem] shadow-sm border border-slate-200 hover:shadow-md transition">
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Short-Term Budget Structuring</h3>
+                    <p class="text-sm text-slate-600">Weekly prices are becoming more unpredictable. Planning your budget on a week-to-week basis provides better cost control under current market conditions.</p>
+                </div>
+                <div class="bg-white p-6 rounded-[2rem] shadow-sm border border-slate-200 hover:shadow-md transition">
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Fuel-Linked Cost Sensitivity Alert</h3>
+                    <p class="text-sm text-slate-600">Transport costs are moving in line with changing fuel prices. Reviewing and optimizing travel routes is recommended to manage spending under current conditions.</p>
+                </div>
+                <div class="bg-white p-6 rounded-[2rem] shadow-sm border border-slate-200 hover:shadow-md transition">
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Price Source Diversification Signal</h3>
+                    <p class="text-sm text-slate-600">Localized retail channels show lower price variance compared to centralized distributors. Multi-source purchasing reduces exposure to concentrated price increases.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-300 py-10">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <p class="text-lg font-semibold text-orange-500 hover:text-orange-600">Nomics</p>
+                <p class="text-sm text-slate-500">Market price awareness for everyday Ghana.</p>
+            </div>
+            <div class="flex flex-wrap gap-4 text-sm text-white">
+                <a href="#" class="hover:text-orange-500 transition">Privacy</a>
+                <a href="#" class="hover:text-orange-500 transition">Terms</a>
+                <a href="#" class="hover:text-orange-500 transition">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
